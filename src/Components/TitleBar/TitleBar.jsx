@@ -3,16 +3,16 @@ import profilePic from '../Assets/profilePic.svg'
 
 const TitleBar = () => {
   return (
-    <div className={style.wrapper}>
+    <div class={style.wrapper}>
       <div>
-        <h3 className={style.greetingTitle}>
+        <h3 class={style.greetingTitle}>
           Welcome back, Guest
         </h3>
-        <p className={style.greetingText}>
+        <p class={style.greetingText}>
           Here's what you missed...
         </p>
       </div>
-      <div className={style.iconWrapper}>
+      <div class={style.iconWrapper}>
         <img src={profilePic} alt="" />
       </div>
     </div>

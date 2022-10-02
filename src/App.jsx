@@ -1,12 +1,15 @@
-import styles from './App.module.css';
-import TitleBar from './Components/TitleBar';
+import style from './App.module.css';
+import TitleBar from './Components/TitleBar/TitleBar';
+import NavBar from './Components/NavBar/NavBar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div class={style.app}>
+      <header class={style.header}>
         <TitleBar />
       </header>
+
+      <NavBar />
     </div>
   );
 }
