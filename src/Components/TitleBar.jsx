@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './TitleBar.module.css';
 import profilePic from '../Assets/profilePic.svg'
 

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&family=Silkscreen&display=swap');
+
+body {
+  background: linear-gradient(90deg, #FFE8C6 20.28%, #C1E1FF 100%);
+}
+
+.subtitle {
+  font-family: 'Silkscreen', monospace;
+}
