@@ -3,7 +3,9 @@ import style from './NavBar.module.css'
 const NavBar = () => {
 
   return (
-    <div>NavBar</div>
+    <section>
+      <h1>Prova</h1>
+    </section>
   );
 }
   export default NavBar;
