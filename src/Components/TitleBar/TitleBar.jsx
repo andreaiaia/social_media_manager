@@ -1,5 +1,5 @@
 import style from './TitleBar.module.css';
-import profilePic from '../Assets/profilePic.svg'
+import profilePic from '../../Assets/profilePic.svg'
 
 const TitleBar = () => {
   return (
